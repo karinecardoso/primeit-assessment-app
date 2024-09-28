@@ -1,0 +1,58 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "name": "Germany"
+        },
+        {
+            "id": 2,
+            "name": "Great Britain"
+        }
+    ],
+    "articleTypes": [
+        {
+            "id": 1,
+            "name": "Motorbike"
+        },
+        {
+            "id": 2,
+            "name": "Bike"
+        }
+    ],
+    "legalEntities": [
+        {
+            "id": 1,
+            "name": "11"
+        },
+        {
+            "id": 2,
+            "name": "12"
+        },
+        {
+            "id": 3,
+            "name": "13"
+        }
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "regionId": 1,
+            "articleTypeId": 1,
+            "legalEntityId": 1,
+            "version": "Actual",
+            "currency": "LC",
+            "measure": "Units",
+            "value": 276521
+        },
+        {
+            "id": 2,
+            "regionId": 1,
+            "articleTypeId": 2,
+            "legalEntityId": 2,
+            "version": "Actual",
+            "currency": "LC",
+            "measure": "Units",
+            "value": 10000
+        }
+    ]
+}
