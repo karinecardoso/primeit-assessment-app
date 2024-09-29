@@ -1,7 +1,7 @@
 import React from "react";
 import Select, { ActionMeta } from "react-select";
 
-interface SelectProps {
+interface CustomSelectProps {
   label: string;
   value?: SelectOption;
   options: SelectOption[];
@@ -16,7 +16,7 @@ export interface SelectOption {
   value: string;
 }
 
-function CustomSelect({ label, value, options, onChange }: SelectProps) {
+function CustomSelect({ label, value, options, onChange }: CustomSelectProps) {
   return (
     <label>
       {`${label}:`}

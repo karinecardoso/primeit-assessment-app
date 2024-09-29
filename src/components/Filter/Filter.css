@@ -1,0 +1,10 @@
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter__item {
+  flex: 1 0 26%;
+  min-width: 250px;
+}
