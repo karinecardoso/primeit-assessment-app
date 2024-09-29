@@ -57,7 +57,7 @@ export const convertArticles = (
         filteredData,
         articleItem,
         subItemsField,
-        subItemsField == "articleType" ? "legalEntity" : ""
+        subItemsField === "articleType" ? "legalEntity" : ""
       );
       articleTableSubItems.push(subItems);
     });
