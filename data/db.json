@@ -1,58 +1,438 @@
 {
-    "regions": [
-        {
-            "id": 1,
-            "name": "Germany"
-        },
-        {
-            "id": 2,
-            "name": "Great Britain"
-        }
-    ],
-    "articleTypes": [
-        {
-            "id": 1,
-            "name": "Motorbike"
-        },
-        {
-            "id": 2,
-            "name": "Bike"
-        }
-    ],
-    "legalEntities": [
-        {
-            "id": 1,
-            "name": "11"
-        },
-        {
-            "id": 2,
-            "name": "12"
-        },
-        {
-            "id": 3,
-            "name": "13"
-        }
-    ],
-    "articles": [
-        {
-            "id": 1,
-            "regionId": 1,
-            "articleTypeId": 1,
-            "legalEntityId": 1,
-            "version": "Actual",
-            "currency": "LC",
-            "measure": "Units",
-            "value": 276521
-        },
-        {
-            "id": 2,
-            "regionId": 1,
-            "articleTypeId": 2,
-            "legalEntityId": 2,
-            "version": "Actual",
-            "currency": "LC",
-            "measure": "Units",
-            "value": 10000
-        }
-    ]
+  "regions": [
+    {
+      "id": 1,
+      "name": "Germany"
+    },
+    {
+      "id": 2,
+      "name": "Great Britain"
+    }
+  ],
+  "articleTypes": [
+    {
+      "id": 1,
+      "name": "Motorbike"
+    },
+    {
+      "id": 2,
+      "name": "Bike"
+    }
+  ],
+  "legalEntities": [
+    {
+      "id": 1,
+      "name": "11"
+    },
+    {
+      "id": 2,
+      "name": "12"
+    },
+    {
+      "id": 3,
+      "name": "13"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 2760
+    },
+    {
+      "id": 2,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 11999
+    },
+    {
+      "id": 3,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 12999
+    },
+    {
+      "id": 4,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 35877240
+    },
+    {
+      "id": 5,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 33117240
+    },
+    {
+      "id": 6,
+      "regionId": 2,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Actual",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 1500
+    },
+    {
+      "id": 7,
+      "regionId": 2,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 9000
+    },
+    {
+      "id": 8,
+      "regionId": 2,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 9999
+    },
+    {
+      "id": 9,
+      "regionId": 2,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 14998500
+    },
+    {
+      "id": 10,
+      "regionId": 2,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 13500000
+    },
+    {
+      "id": 11,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 2000
+    },
+    {
+      "id": 12,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 11500
+    },
+    {
+      "id": 13,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 12500
+    },
+    {
+      "id": 14,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 25000000
+    },
+    {
+      "id": 15,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 23000000
+    },
+    {
+      "id": 16,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Budget",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 1000
+    },
+    {
+      "id": 17,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 8500
+    },
+    {
+      "id": 18,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 9500
+    },
+    {
+      "id": 19,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 9500000
+    },
+    {
+      "id": 20,
+      "regionId": 1,
+      "articleTypeId": 1,
+      "legalEntityId": 2,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 8500000
+    },
+    {
+      "id": 21,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 500
+    },
+    {
+      "id": 22,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 250
+    },
+    {
+      "id": 23,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 270
+    },
+    {
+      "id": 24,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 135000
+    },
+    {
+      "id": 25,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 125000
+    },
+    {
+      "id": 26,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Actual",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 800
+    },
+    {
+      "id": 27,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 170
+    },
+    {
+      "id": 28,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 190
+    },
+    {
+      "id": 29,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Actual",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 152000
+    },
+    {
+      "id": 30,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Actual",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 136000
+    },
+    {
+      "id": 31,
+      "regionId": 2,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 750
+    },
+    {
+      "id": 32,
+      "regionId": 2,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 120
+    },
+    {
+      "id": 33,
+      "regionId": 2,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 130
+    },
+    {
+      "id": 34,
+      "regionId": 2,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 97500
+    },
+    {
+      "id": 35,
+      "regionId": 2,
+      "articleTypeId": 2,
+      "legalEntityId": 1,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 90000
+    },
+    {
+      "id": 36,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Budget",
+      "currency": "LC",
+      "measure": "Units",
+      "value": 450
+    },
+    {
+      "id": 37,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Unit Price",
+      "value": 100
+    },
+    {
+      "id": 38,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Unit Price",
+      "value": 115
+    },
+    {
+      "id": 39,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Budget",
+      "currency": "EUR",
+      "measure": "Gross Revenue",
+      "value": 51750
+    },
+    {
+      "id": 40,
+      "regionId": 1,
+      "articleTypeId": 2,
+      "legalEntityId": 3,
+      "version": "Budget",
+      "currency": "USD",
+      "measure": "Gross Revenue",
+      "value": 45000
+    }
+  ]
 }
